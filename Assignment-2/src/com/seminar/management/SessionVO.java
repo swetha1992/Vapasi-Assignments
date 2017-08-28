@@ -11,6 +11,8 @@ public class SessionVO {
     int enrolledParticipantsCount;
     Time startTime;
     Time endTime;
+    List<ParticipantVO> participantsList=new ArrayList<ParticipantVO>();
+
 
     public List<ParticipantVO> getParticipantsList() {
         return participantsList;
@@ -20,7 +22,7 @@ public class SessionVO {
         this.participantsList = participantsList;
     }
 
-    List<ParticipantVO> participantsList=new ArrayList<ParticipantVO>();
+
 
     public int getTotalParticipantsCount() {
         return totalParticipantsCount;
