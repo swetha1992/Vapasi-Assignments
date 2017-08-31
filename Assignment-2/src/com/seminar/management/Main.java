@@ -3,13 +3,12 @@ package com.seminar.management;
 public class Main {
 
     public static void main(String[] args) {
+        SessionHandler sessionHandler =new SessionHandler();
+        sessionHandler.createSession();
+        sessionHandler.showListOfSessions();
 
-        SessionBO sessionBO=new SessionBO();
-        sessionBO.createSession();
-        sessionBO.showListOfSessions();
-
-        EnrollmentBO enrollmentBO=new EnrollmentBO();
-        enrollmentBO.enrollSession(sessionBO);
-
+        System.out.println("Enter session id to which you wish to enroll");
+        int sessionID1 = 2; //get from user
+        sessionHandler.enrollSession(sessionID1);
     }
 }
