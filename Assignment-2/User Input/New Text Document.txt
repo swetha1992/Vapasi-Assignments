@@ -1,0 +1,16 @@
+SessionId = 1 
+hostName = swetha m
+sessionName = java
+totalParticipantsCount= 20 
+enrolledParticipantsCount = 0
+startTime = 09:00:00, 
+endTime = 11:00:00
+
+
+SessionId = 2 
+hostName = kowshik
+sessionName = aws
+totalParticipantsCount= 10 
+enrolledParticipantsCount = 0
+startTime = 11:00:00, 
+endTime = 13:00:00
